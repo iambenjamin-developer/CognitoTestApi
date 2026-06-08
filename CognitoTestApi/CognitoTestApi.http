@@ -1,0 +1,6 @@
+@CognitoTestApi_HostAddress = http://localhost:5042
+
+GET {{CognitoTestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
