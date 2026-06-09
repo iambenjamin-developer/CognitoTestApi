@@ -6,6 +6,7 @@ namespace CognitoTestApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AuthTestingController : ControllerBase
     {
         private static readonly string[] Summaries =
